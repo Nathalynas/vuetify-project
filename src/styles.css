@@ -1,0 +1,12 @@
+.fill-height {
+  height: 100vh;
+}
+
+.login-background {
+  background-color: #994EFE;
+}
+
+.custom-header thead {
+  background-color: #E0E0E0;
+  font-weight: bold;
+}
