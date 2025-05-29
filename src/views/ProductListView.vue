@@ -43,7 +43,7 @@
                             <td>{{ item.quantity }}</td>
                             <td>R$ {{ item.value.toFixed(2) }}</td>
                             <td>
-                                <v-icon class="me-2" color="primary" @click="editProduct(item)" style="cursor: pointer">
+                                <v-icon class="me-2" color="grey" @click="editProduct(item)" style="cursor: pointer">
                                     mdi-pencil
                                 </v-icon>
                                 <v-icon color="red" @click="confirmDelete(item)" style="cursor: pointer">
@@ -68,7 +68,7 @@
                         </v-card-text>
                         <v-card-actions>
                             <v-btn text @click="cancelEdit">Cancelar</v-btn>
-                            <v-btn color="primary" @click="saveProduct">Salvar</v-btn>
+                            <v-btn color="#994EFE" @click="saveProduct">Salvar</v-btn>
                         </v-card-actions>
                     </v-card>
                 </v-dialog>
